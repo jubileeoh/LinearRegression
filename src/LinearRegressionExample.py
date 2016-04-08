@@ -8,12 +8,12 @@ import math
 import matplotlib.pyplot as plt
 
 
-# In[ ]:
+# In[2]:
 
 ## 배치 버전
 
 
-# In[4]:
+# In[3]:
 
 def f(x):
     w = 2.0
@@ -49,7 +49,7 @@ def searchW():
 print searchW()
 
 
-# In[5]:
+# In[4]:
 
 x_list = np.array(map(lambda x: x[0], data))
 y_list = np.array(map(lambda x: x[1], data))
@@ -62,7 +62,7 @@ plt.show()
 
 
 
-# In[ ]:
+# In[5]:
 
 ## 온라인 버전
 
@@ -102,7 +102,7 @@ def searchW():
 print searchW()
 
 
-# In[56]:
+# In[ ]:
 
 
 
@@ -205,4 +205,9 @@ def searchW():
     return w
     
 print searchW()
+
+
+# In[ ]:
+
+
 
